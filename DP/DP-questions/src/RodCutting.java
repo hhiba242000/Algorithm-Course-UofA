@@ -5,7 +5,7 @@ public class RodCutting {
     //using DP solve rod cutting problem
     //modifications may be inserted like price list->price map to construct n from random different smaller lengths
     //not necessarily the interval 1->n
-    public static void main(String[] args) {
+    public static void demo(String[] args) {
         int[] prices={0,1,5,8,9,10,17,17,20,24,30};
         int n= 7;
         int[] memo=new int[n+1];

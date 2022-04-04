@@ -66,12 +66,12 @@ public class RodCutting {
 
     private static void PrintTheOpAnswer(int n,int[] prices) {
         int[]s=new int[n+1];
-//        RodCutBottomUpMod(n,prices,s);
-//        System.out.println("answer by RodCutBottomUpMod ");
-//        while(n>0){
-//            System.out.println("cut at: "+s[n]);
-//            n=n-s[n];
-//        }
+        RodCutBottomUpMod(n,prices,s);
+        System.out.println("answer by RodCutBottomUpMod ");
+        while(n>0){
+            System.out.println("cut at: "+s[n]);
+            n=n-s[n];
+        }
 
         ArrayList<Integer> ss=new ArrayList();
         int[] memo=new int[n+1];

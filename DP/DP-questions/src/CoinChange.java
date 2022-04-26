@@ -4,7 +4,7 @@ import java.util.Collections;
 
 public class CoinChange {
     //given amount of coins find minimum number of coins to sum up V
-    public static void main(String[] args) {
+    public  void demo(String[] args) {
 
         int n=11;
         int[] coins={1,2,5};

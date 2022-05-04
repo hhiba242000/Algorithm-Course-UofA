@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Algorithm-Course-UofA.iml" filepath="$PROJECT_DIR$/.idea/Algorithm-Course-UofA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DP/DP.iml" filepath="$PROJECT_DIR$/DP/DP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Greedy/Greedy.iml" filepath="$PROJECT_DIR$/Greedy/Greedy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/graphs/graphs.iml" filepath="$PROJECT_DIR$/graphs/graphs.iml" />
+    </modules>
+  </component>
+</project>

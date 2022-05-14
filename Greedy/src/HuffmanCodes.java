@@ -25,7 +25,7 @@ public class HuffmanCodes {
             return o1.frequency - o2.frequency;
         }
     }
-    public static void main(String[] args) {
+    public static void demo(String[] args) {
         Node[] arr = new Node[8];
         arr[0]= new Node(' ', 2);
         arr[1]= new Node('o', 3);
@@ -38,13 +38,13 @@ public class HuffmanCodes {
 
 
 
-        Node ans = HuffmanCompression(arr);
+        //Node ans = HuffmanCompression(arr);
         HashMap<Character,String> map = new HashMap<>();
-        TraversTree(ans,map,"");
+        //TraversTree(ans,map,"");
         System.out.println(map);
 
         String input = Compress("go go gophers",map);
-        System.out.println("decoded data is : "+HuffmanDecompression(input,ans));
+        //System.out.println("decoded data is : "+HuffmanDecompression(input,ans));
 
 
     }
@@ -58,9 +58,8 @@ public class HuffmanCodes {
     }
 
     private static Node HuffmanCompression(Node[] arr){
-        PriorityQueue<Node> q = new PriorityQueue<>(arr.length,new NodeComparator());
-        for (Node x: arr)
-            q.add(x);
+        PriorityQueue<Node> q = new PriorityQueue<Node>();
+        q.addAll(Arrays.asList(arr));
 
 
         while(q.size() >1){
